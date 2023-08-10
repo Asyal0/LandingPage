@@ -8,8 +8,8 @@
 }
 
 body {
- font-size: 100%;
- background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
 } 
 
 .cabecalho {
@@ -37,6 +37,9 @@ body {
 }
 
 .conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 48px;
   border-top: 0.4px solid #FFF2E7;
 }
@@ -86,7 +89,7 @@ body {
 }
 
 .conteudo-principal-imagem {
-   height: 430px;
+  height: 430px;
 }
 
 .conteudo-secundario {
