@@ -26,6 +26,8 @@ body {
 
 .cabecalho-menu {
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   gap: 32px;
 }
 
@@ -42,7 +44,8 @@ body {
   align-items: center;
    margin-bottom: 48px;
    border-top: 0.4px solid #FFF2E7;
-}
+  }
+
 .conteudo-principal {
   display: flex;
   flex-direction: row;
